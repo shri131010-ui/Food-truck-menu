@@ -1,0 +1,54 @@
+.menu-card {
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.menu-card:hover {
+  transform: translateY(-8px);
+}
+
+.menu-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.menu-info {
+  padding: 18px;
+}
+
+.menu-info h2 {
+  font-size: 28px;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.menu-info p {
+  color: #777;
+  font-size: 17px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.card-footer h3 {
+  font-size: 22px;
+  color: #111;
+}
+.delete-btn{
+    background:white;
+    color:#222;
+    border:1px solid #222;
+    border-radius: 5px;
+}
+
+.delete-btn:hover {
+  background: #dc2626;
+}
